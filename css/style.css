@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(to right, red, yellow);
+}
+.navbar{
+/* background-color: gray; */
+height: 50px;
+display: flex;
+/* justify-content: flex-end; */
+flex-wrap: nowrap;
+width: 100%
+}
+.navlinks{
+    width: 50%;
+}
+.navlinks li{
+    display: inline;
+    font-size: 1.5em;
+    margin: 2%;
+    
+}
+#aboutme{
+    text-align: center;
+    width: 60%;
+    font-size: 2em;
+    margin-left: 20%;
+}
+#aboutme p{
+    /* width: 50%; */
+}
+#projects{
+    display: flex;
+    
+}
+.projectspan{
+    text-align: center;
+    width: 20%;
+    margin: 5%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15%;
+    /* font-size: 1.5em; */
+}
+#skills{
+    text-align: center;
+    font-size: 1.7em;
+}
+#resume{
+    text-align: center;
+    margin-top: 3em;
+    font-size: 2em;
+}
